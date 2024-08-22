@@ -94,5 +94,5 @@ def AnalyzeImage(image_file, cv_client):
         print("   Error code: {}".format(error_details.error_code))
         print("   Error message: {}".format(error_details.message))
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
